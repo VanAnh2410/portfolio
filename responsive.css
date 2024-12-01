@@ -1,0 +1,220 @@
+/* Large screens (Desktops) */
+@media only screen and (min-width: 1200px) {
+  header {
+    padding: 20px 64px;
+  }
+
+  #intro, #about-me {
+    padding: 64px 64px;
+  }
+
+  .intro__content-greeting {
+    font-size: 52px;
+  }
+
+  .intro__content h1 {
+    font-size: 85px;
+  }
+
+  .about-me__content h2 {
+    font-size: 48px;
+  }
+
+  /* Adjust portfolio item size */
+  .creative-works--art-portfolio-item img {
+    width: 400px;
+    height: 450px;
+  }
+}
+
+/* Medium screens (Tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  header {
+    padding: 16px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header .header-container__right {
+    display: none;
+  }
+
+  #intro,
+  #about-me {
+    padding: 48px 32px;
+  }
+
+  .intro__content-greeting {
+    font-size: 40px;
+  }
+
+  .intro__image img {
+    width: 300px;
+  }
+
+  .intro__content h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+
+  .about-me__content h2 {
+    font-size: 36px;
+  }
+
+  .creative-works--art-portfolio-item img {
+    width: 300px;
+    height: 350px;
+  }
+
+  .creative-works--title {
+    font-size: 40px;
+  }
+
+  #about-me {
+    padding: 48px 32px;
+    display: block;
+  }
+  .about-me__image {
+    width: 300px;
+    float: right;
+    margin-left: 32px;
+  }
+  .about-me__content {
+    text-align: justify;
+    padding-bottom: 0;
+  }
+  #achievements {
+    padding: 48px 32px;
+  }
+  .achievements__certificate-score {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #my-preferences {
+    padding: 48px 32px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .my-preferences__image {
+    flex-direction: column;
+    align-items: center;
+  }
+  .my-preferences__image-box-left {
+    flex-direction: row;
+  }
+  .my-preferences__image-box-right {
+    flex-direction: row;
+    margin-top: 0;
+  }
+}
+
+/* Small screens (Mobile) */
+@media only screen and (max-width: 767px) {
+  header {
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header .header-container__right {
+    display: none;
+  }
+  .header-container__left {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  nav {
+    margin-right: 0;
+  }
+
+  ul.list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #intro {
+    padding: 32px 16px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .intro__content {
+    text-align: center;
+  }
+  .intro__content-greeting {
+    font-size: 32px;
+  }
+
+  .intro__content h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .intro__image img {
+    width: 200px;
+  }
+  .container-button.intro__content-button-play-chess {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-me__content h2 {
+    font-size: 28px;
+  }
+
+  .about-me__content--description {
+    font-size: 18px;
+  }
+
+  .creative-works--art-portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .creative-works--title {
+    font-size: 32px;
+  }
+
+  #about-me {
+    padding: 32px 16px;
+    display: block;
+  }
+  .about-me__image {
+    width: 200px;
+    float: right;
+    margin-left: 16px;
+  }
+  .about-me__content {
+    text-align: justify;
+    padding-bottom: 0;
+  }
+  #achievements {
+    padding: 32px 16px;
+  }
+  .achievements_header {
+    font-size: 32px;
+  }
+  .achievements__certificate-score {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #my-preferences {
+    flex-direction: column;
+    display: flex;
+    padding: 32px 16px;
+    gap: 16px;
+    flex-direction: column-reverse;
+  }
+
+  .my-preferences__image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    padding: 32px 16px;
+  }
+
+  .footer__content--name {
+    font-size: 24px;
+  }
+}

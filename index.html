@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veronica's Portfolio</title>
+  <link rel="icon" href="https://static-00.iconduck.com/assets.00/incognito-circle-icon-256x256-ozj8a2m2.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="animation.css">
+  <link rel="stylesheet" href="container-btn.css">
+  <link rel="stylesheet" href="creative-works-card.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script>
+    const playChess = () => {
+      window.open("https://link.chess.com/play/56UZMf");
+    }
+  </script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-container__left">
+      <img class="header-container__left--logo"
+        src="images/thptth.jpg"
+        alt="logo ptth tam hiệp" />
+      <div class="header-container__left--name">Lương Ngọc Vân Anh/Veronica</div>
+    </div>
+    <div class="header-container__right">
+      <nav>
+        <ul class="list">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#achievements">Acadedmics</a></li>
+          <li><a href="#my-preferences">Favored Activities</a></li>
+          <li><a href="#creative-works">Creative Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- section intro -->
+
+  <section id="intro">
+    <div id="particles-js"></div>
+
+    <div class="intro__content">
+      <h2 class="intro__content-greeting">XIN CHAO, I'M</h2>
+      <h1 class="intro__content-title">Vân Anh</h1>
+      <span class="intro__content-subtitle" id="text_Anim"></span>
+
+      <a class="container-button intro__content-button-play-chess" href="https://link.chess.com/play/56UZMf"
+        target="_blank">
+        <div class="hover bt-1"></div>
+        <div class="hover bt-2"></div>
+        <div class="hover bt-3"></div>
+        <div class="hover bt-4"></div>
+        <div class="hover bt-5"></div>
+        <div class="hover bt-6"></div>
+        <button id="button-play-chess" onclick="playChess()"></button>
+      </a>
+    </div>
+
+
+    <div class="intro__image animate__animated animate__slideInLeft">
+      <img src="images/vananh.jpg" alt="Hình cá nhân" />
+    </div>
+  </section>
+
+  <!-- About me -->
+
+  <section id="about-me">
+    <div class="about-me__image">
+      <img
+        src="images/vananh.jpg"
+        alt="Hình cá nhân" />
+    </div>
+    <div class="about-me__content">
+      <h2 class="about-me__content--title">
+        <span class="about-me__content--title-text-1">About</span>
+        <span class="about-me__content--title-text-2">me</span>
+      </h2>
+      <p class="about-me__content--description">
+        My name is Lương Ngọc Vân Anh. I am 16 years old and a student at Tam Hiệp High School. I am deeply passionate about studying and reading, as these activities allow me to explore vast worlds of knowledge and expand my horizons.
+
+        In my family, we are a close-knit nuclear family, and I am the oldest child. Being the eldest has its responsibilities, and I strive to set a good example for my younger siblings. My family means a lot to me, and their support is crucial to my personal and academic growth.
+      </p>
+      <div class="about-me__content--info">
+        <!-- Date of Birth  -->
+        <div class="about-me__content--info-item">
+          <span>My Birth:</span>
+          <b>Octorber, 24 2008 </b>
+        </div>
+        <!-- Phone -->
+        <div class="about-me__content--info-item">
+          <span>Dial Me:</span>
+          <b>(+84) 0945590679 </b>
+        </div>
+        <!-- Email -->
+        <div class="about-me__content--info-item">
+          <span>For business contact me</span>
+          <b> vananhluongngoc08@gmail.com </b>
+        </div>
+        <!-- Address -->
+        <div class="about-me__content--info-item">
+          <span>Address:</span>
+          <b>BienHoa, Viet Nam</b>
+        </div>
+      </div>
+      <div class="about-me__content--social-network">
+        <!-- Tìm kiếm icon ở đây https://fontawesome.com/search -->
+        <a href="https://www.facebook.com/vananh.luong.3572846?mibextid=ZbWKwL" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/3670/3670124.png" width="32" alt="">
+        </a>
+        <a href="https://discord.gg/hz9gRpAH" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/2626/2626288.png" width="32" alt="">
+        </a>
+        <a href="https://www.instagram.com/lgnocvaanh/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/3670/3670274.png" width="32" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <div class="achievements__subtitle">Academics Achievement</div>
+    <b class="achievements_header">Standardized Tests</b>
+    <div class="achievements__certificate-score">
+      <div class="achievements__certificate-score--item achievements__certificate-score--SAT">
+        <span>SAT:</span>
+        <b>—</b>
+      </div>
+      <div class="achievements__certificate-score--item achievements__certificate-score--IELTS">
+        <span>IELTS:</span>
+        <b>—</b>
+      </div>
+      <div class="achievements__certificate-score--item achievements__certificate-score--AP-Calculus-BC">
+        <span>AP Chemistry:</span>
+        <b>—</b>
+      </div>
+      <div class="achievements__certificate-score--item achievements__certificate-score--AP-Statistics">
+        <span>AP Biology</span>
+        <b>—</b>
+      </div>
+      <div class="achievements__certificate-score--item achievements__certificate-score--AP-Statistics">
+        <span>GPA</span>
+        <b>—</b>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Preferences -->
+  <section id="my-preferences">
+    <!-- image -->
+    <div class="my-preferences__image">
+      <div class="my-preferences__image-box-left">
+        <img src="images/Runningimg.jpg" alt="" />
+        <img src="images/calisthenic.jpg" alt="" />
+      </div>
+      <div class="my-preferences__image-box-right">
+        <img src="images/light.jpg" alt="" />
+        <img src="images/terrarium.jpg" alt="" />
+      </div>
+    </div>
+    <!-- content -->
+    <div class="my-preferences__content">
+      <div class="my-preferences__content--intro">
+        My Preferences
+      </div>
+      <h2 class="my-preferences__content--title">Writing, Speaking, Debating, Organization and Hosting the programs</h2>
+      <p class="my-preferences__content--description">
+        One of my preferences is writing. I find great joy in putting my thoughts into words, crafting stories, essays, and articles that allow me to express my creativity and viewpoints.
+      </p>
+      <p class="my-preferences__content--description">
+        Speaking is another passion of mine. I enjoy the art of oration, whether it's presenting in front of a crowd or engaging in meaningful conversations. It is exhilarating to connect with others through spoken words.
+      </p>
+      <p class="my-preferences__content--description">
+        I also love debate. Engaging in debates sharpens my critical thinking and helps me refine my arguments. It is a fantastic way to explore different perspectives and hone my public speaking skills.
+      <p class="my-preferences__content--description">
+        Creating organizations is something I thrive on. I enjoy the process of bringing people together, building teams, and setting up initiatives that have a positive impact on the community. It is incredibly rewarding to see ideas come to life
+       
+      </p>
+      <p class="my-preferences__content--description">
+        I enjoy hosting programs. Whether it's events, workshops, or social gatherings, I find it fulfilling to organize and lead activities that bring joy and knowledge to others. It’s a great way to develop leadership skills and create memorable experiences.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- Creative Works -->
+  <section id="creative-works">
+    <div class="creative-works--intro">
+      Creative Pieces
+    </div>
+    <h2 class="creative-works--title">Hobbies</h2>
+
+    <div class="creative-works-card">
+      <a class="card" href="#" target="_blank">
+        <h2>ORGANIZING COMMITTEE 
+        </h2>
+        <div class="card__content">
+          <p class="card__title">Organize Committee</p>
+          <p class="card__description">The greatest and happiest thing i've done.</p>
+        </div>
+      </a>
+      <a class="card" href="#" target="_blank">
+        <h2>CHARITY
+        </h2>
+        <div class="card__content">
+          <p class="card__title">Charity</p>
+          <p class="card__description">Whenever i do charity, it made myself realize that i'm luckier than a lot of people and after the charity, i felt very comfortable without any reasons. </p>
+        </div>
+      </a>
+      <a class="card" href="#" target="_blank">
+        <h2>DEBATE
+        </h2>
+        <div class="card__content">
+          <p class="card__title">Debate</p>
+          <p class="card__description"> Debate brought me to met a lot of talent people and it also create several new life skills for me such as teamwork, time management and also debate help me realize that sometimes in a topic or a problems, there are several different point of views.
+          </p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact"></section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer__content">
+      <img class="footer__content--logo" src="images/Afternoon.jpg" alt="" />
+      <div class="footer__content--name">Created by Lương Ngọc Vân Anh</div>
+      <div class="footer__content--contact">
+        <a href="https://www.facebook.com/vananh.luong.3572846?mibextid=ZbWKwL" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://discord.gg/hz9gRpAH" target="_blank">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+        <a href="https://www.instagram.com/lgnocvaanh/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer__copy-right">
+      Copyright © 2023 All Rights Reserved. Made by Luong Ngoc Van Anh
+    </div>
+  </footer>
+
+  <section class="sticky">
+    <div class="bubbles">
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      
+    </div>
+  </section>
+  <!-- add font awesome icon library -->
+  <script src="https://kit.fontawesome.com/d2ae662ec5.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
