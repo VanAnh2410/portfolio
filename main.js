@@ -16,5 +16,5 @@ const textAnim = (id, text, index = 0) => {
     }
 };
 // element animation 
-textAnim("text_Anim", "The happiness of your li");
+textAnim("text_Anim", "The happiness of your life depends upon the quality of your thoughts");
 

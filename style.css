@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 body{
-  background: linear-gradient(180deg, #fff 100vh, #8793ff 200vh, #2b41c0 300vh, #1f3ad0 400vh);
+  background: linear-gradient(180deg, #fff 100vh, #ff87ff 200vh, #e92cb6 300vh, #e444cc 400vh);
 }
 img {
   border-radius: 16px;
@@ -65,8 +65,8 @@ ul.list li a {
   text-align: center;
 }
 ul.list li:hover {
-  color: #6f34fe; /* Change color on hover */
-  border-bottom: 2px solid #6f34fe; /* Add a bottom border on hover */
+  color: #fe34d2; /* Change color on hover */
+  border-bottom: 2px solid #fe34fe; /* Add a bottom border on hover */
 }
 
 .header-container__left--logo {
@@ -143,7 +143,7 @@ ul.list li:hover {
 }
 
 .intro__content h1 {
-  color: #6f34fe;
+  color: #fe34ea;
   font-size: 85px;
   font-style: normal;
   font-weight: 800;
@@ -152,7 +152,7 @@ ul.list li:hover {
   display: inline-block;
 }
 .intro__content-subtitle {
-  color: #7158a6;
+  color: #000000;
   font-size: 22px;
   font-weight: 400;
   line-height: 34px; /* 154.545% */
@@ -199,13 +199,13 @@ ul.list li:hover {
   line-height: 64px;
 }
 .about-me__content--title-text-1 {
-  color: #6f34fe;
+  color: #050406;
 }
 .about-me__content--title-text-2 {
-  color: #fca61e;
+  color: #100e0c;
 }
 .about-me__content--description {
-  color: #637381;
+  color: #0c0e0f;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -224,7 +224,7 @@ ul.list li:hover {
   align-items: center;
 }
 .about-me__content--info-item span {
-  color: #637381;
+  color: #111111;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -242,7 +242,7 @@ ul.list li:hover {
 }
 .about-me__content--social-network a {
   font-size: 32px;
-  color: #637381;
+  color: #bf2b9f;
 }
 .about-me__content button {
   width: 64px;
@@ -301,7 +301,7 @@ ul.list li:hover {
   width: fit-content;
   height: 78px;
   border-radius: 16px;
-  color: #2116bb;
+  color: #e713d8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,7 +309,7 @@ ul.list li:hover {
   padding: 0 32px;
   font-size: 20px;
   line-height: 30px;
-  border: 2px solid #2116bb;
+  border: 2px solid #db12db;
   background-color: #fff;
 }
 
@@ -351,7 +351,7 @@ ul.list li:hover {
   line-height: 36px; /* 150% */
 }
 .my-preferences__content--title {
-  color: #212b36;
+  color: #fefeff;
   font-size: 40px;
   font-weight: 800;
   line-height: 64px;
@@ -378,7 +378,7 @@ ul.list li:hover {
   /* background: linear-gradient(180deg, #6f34fe 40%, #fff 100%); */
 }
 .creative-works--intro {
-  color: #6f34fe;
+  color: #df12cadf;
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
@@ -411,7 +411,7 @@ ul.list li:hover {
   margin: auto;
 }
 .creative-works--art-portfolio-item-date {
-  color: #637381;
+  color: #cf2acf;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -423,13 +423,13 @@ ul.list li:hover {
   line-height: 48px;
 }
 .creative-works--art-portfolio-item-description {
-  color: #637381;
+  color: #c055c0;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
 }
 .creative-works--description {
-  color: #6f34fe;
+  color: #de0ccd;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
